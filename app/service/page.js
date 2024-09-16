@@ -4,7 +4,7 @@ import Accordion1 from "@/components/elements/Accordion1";
 import Layout from "@/components/layout/Layout";
 import Link from "next/link";
 import { useEffect, useState } from "react";
-import data from "./detail.json";
+import data from "./detail.JSON";
 
 export default function Service() {
    

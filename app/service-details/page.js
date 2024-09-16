@@ -3,7 +3,7 @@ import VideoPopup from '@/components/elements/VideoPopup'
 import Layout from "@/components/layout/Layout"
 import Link from "next/link"
 import { useState, useEffect } from 'react'
-import companyDetails from './detail.json'
+import companyDetails from './detail.JSON'
 import { useSearchParams } from 'next/navigation'
 
 export default function ServiceDetails() {
