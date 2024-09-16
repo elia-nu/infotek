@@ -92,7 +92,7 @@ export default function Header3({
                                     <div className="header-button">
                                         <Link href="/contact" className="theme-btn bg-white">
                                             <span>
-                                                get A Quote
+                                                Contact Us
                                                 <i className="fa-solid fa-arrow-right-long" />
                                             </span>
                                         </Link>

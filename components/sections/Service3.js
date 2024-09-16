@@ -139,7 +139,7 @@ export default function Service3() {
                                 Stay Connected With <br /> Cutting Edge IT
                             </h3>
                             <Link href="/contact" className="theme-btn bg-white">
-                                get A Quote
+                                Contact Us
                                 <i className="fa-solid fa-arrow-right-long" />
                             </Link>
                         </div>
