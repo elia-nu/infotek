@@ -5,6 +5,57 @@ import VideoPopup from '../elements/VideoPopup'
 import CounterUp from '../elements/CounterUp'
 
 export default function About1() {
+    const data = [
+        {
+          id: 1,
+          icon: "https://zrtechsolutions.com/demo/html/technoit/assets/images/icons/icon-1.svg",
+          title: "Experience",
+          subtitle: "Lorem ipsum dolor sit amet.",
+          description:
+            "Ronsectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+        },
+        {
+          id: 2,
+          icon: "https://zrtechsolutions.com/demo/html/technoit/assets/images/icons/icon-2.svg",
+          title: "Products",
+          subtitle: "Lorem ipsum dolor sit amet.",
+          description:
+            "Ronsectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+        },
+        {
+          id: 3,
+          icon: "https://zrtechsolutions.com/demo/html/technoit/assets/images/icons/icon-3.svg",
+          title: "Approach",
+          subtitle: "Lorem ipsum dolor sit amet.",
+          description:
+            "Ronsectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+        },
+        {
+          id: 4,
+          icon: "https://zrtechsolutions.com/demo/html/technoit/assets/images/icons/icon-4.svg",
+          title: "Pricing",
+          subtitle: "Lorem ipsum dolor sit amet.",
+          description:
+            "Ronsectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+        },
+        {
+          id: 5,
+          icon: "https://zrtechsolutions.com/demo/html/technoit/assets/images/icons/icon-5.svg",
+          title: "Delivery",
+          subtitle: "Lorem ipsum dolor sit amet.",
+          description:
+            "Ronsectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+        },
+        {
+          id: 6,
+          icon: "https://zrtechsolutions.com/demo/html/technoit/assets/images/icons/icon-6.svg",
+          title: "Support",
+          subtitle: "Lorem ipsum dolor sit amet.",
+          description:
+            "Ronsectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+        },
+      ];
+      
     return (
         <>
             <section className="about-section section-padding fix"  id="about">
@@ -77,6 +128,8 @@ export default function About1() {
                                                 <i className="fa-solid fa-arrow-right-long" />
                                             </Link>
                                         </div>
+     
+b
                                        
                                     </div>
                                 </div>
