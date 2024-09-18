@@ -1,5 +1,5 @@
 {
-    "name": "infotek",
+    "name": "Qedami",
     "version": "0.1.0",
     "private": true,
     "scripts": {
@@ -10,6 +10,7 @@
         "sass": "sass --watch public/assets/scss/main.scss:public/assets/css/main.css"
     },
     "dependencies": {
+        "@fortawesome/free-brands-svg-icons": "^6.6.0",
         "autoprefixer": "^10.4.20",
         "next": "14.1.4",
         "postcss": "^8.4.47",

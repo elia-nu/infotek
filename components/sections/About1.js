@@ -83,7 +83,7 @@ export default function About1() {
                             <div className="col-lg-6 mt-4 mt-lg-0">
                                 <div className="about-content">
                                     <div className="section-title">
-                                        <span className="wow fadeInUp">ABOUT INFOTECK</span>
+                                        <span className="wow fadeInUp">ABOUT QEDAMI</span>
                                         <h2 className="wow fadeInUp" data-wow-delay=".3s">
                                             We Are Increasing Business Success With <span>Technology</span>
                                         </h2>
