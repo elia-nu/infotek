@@ -149,7 +149,7 @@ export default function Footer1() {
                                             </li>
                                         </ul>
                                         <Link href="/contact" className="theme-btn hover-white mt-4">
-                                            get A Quote
+                                            Contact Us
                                             <i className="fa-solid fa-arrow-right-long" />
                                         </Link>
                                     </div>

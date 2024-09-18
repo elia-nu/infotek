@@ -66,7 +66,7 @@ export default function Header1({
                                     <div className="header-button">
                                         <Link href="/contact" className="theme-btn">
                                             <span>
-                                                get A Quote
+                                                Contact Us
                                                 <i className="fa-solid fa-arrow-right-long" />
                                             </span>
                                         </Link>

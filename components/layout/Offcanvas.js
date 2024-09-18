@@ -69,7 +69,7 @@ export default function Offcanvas({
                                 </ul>
                                 <div className="header-button mt-4">
                                     <Link href="/contact" className="theme-btn text-center">
-                                        <span>get A Quote<i className="fa-solid fa-arrow-right-long" /></span>
+                                        <span>Contact Us<i className="fa-solid fa-arrow-right-long" /></span>
                                     </Link>
                                 </div>
                                 <div className="social-icon d-flex align-items-center">

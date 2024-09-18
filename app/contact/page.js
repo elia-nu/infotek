@@ -26,7 +26,7 @@ export default function Contact() {
                                                     <div className="content">
                                                         <p>Call Us 7/24</p>
                                                         <h3>
-                                                            <Link href="/tel:+2085550112">+208-555-0112</Link>
+                                                            <Link href="/tel:+12063535373">+1-206-353-5373</Link>
                                                         </h3>
                                                     </div>
                                                 </div>
@@ -39,9 +39,9 @@ export default function Contact() {
                                                         </svg>
                                                     </div>
                                                     <div className="content">
-                                                        <p>Make a Quote</p>
+                                                        <p>Email us at</p>
                                                         <h3>
-                                                            <Link href="/mailto:infotech@gmail.com">Infotech@gmail.com</Link>
+                                                            <Link href="/mailto:info@qedamisolution.com">info@qedamisolution.com</Link>
                                                         </h3>
                                                     </div>
                                                 </div>
@@ -55,7 +55,7 @@ export default function Contact() {
                                                     <div className="content">
                                                         <p>Location</p>
                                                         <h3>
-                                                            4517 Washington ave.
+                                                        Lingo Tower Infront sheger Plaza Bole, Addis Ababa, Ethiopia
                                                         </h3>
                                                     </div>
                                                 </div>
@@ -109,7 +109,7 @@ export default function Contact() {
                     <div className="map-section">
                         <div className="map-items">
                             <div className="googpemap">
-                                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d6678.7619084840835!2d144.9618311901502!3d-37.81450084255415!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x6ad642b4758afc1d%3A0x3119cc820fdfc62e!2sEnvato!5e0!3m2!1sen!2sbd!4v1641984054261!5m2!1sen!2sbd" style={{ border: 0 }} allowFullScreen loading="lazy" />
+                                <iframe src="https://www.google.com/maps/embed?pb=!1m23!1m12!1m3!1d246.29423475954!2d38.78539731682819!3d8.999015858131017!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!4m8!3e6!4m0!4m5!1s0x164b85f45a1cc8a1%3A0xe1a4370ae2994eeb!2sXQXP%2BJ6C%2C%20Namibia%20St%2C%20Addis%20Ababa!3m2!1d8.9990534!2d38.7855079!5e0!3m2!1sen!2set!4v1726422019070!5m2!1sen!2set"style={{ border: 0 }} allowFullScreen loading="lazy" />
                             </div>
                         </div>
                     </div>

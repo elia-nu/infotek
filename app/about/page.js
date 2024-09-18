@@ -12,7 +12,7 @@ export default function About() {
           title: "Experience",
           subtitle: "Lorem ipsum dolor sit amet.",
           description:
-            "Ronsectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+            " Our team boasts extensive industry experience, bringing deep technical expertise and a successful track record in delivering complex projects across various sectors. We understand the unique challenges businesses face and leverage our experience to provide solutions that work.",
         },
         {
           id: 2,
@@ -20,23 +20,24 @@ export default function About() {
           title: "Products",
           subtitle: "Lorem ipsum dolor sit amet.",
           description:
-            "Ronsectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+            "We offer a robust portfolio of innovative, scalable, and customizable software solutions. Whether you need a tailored application or an integrated system, our products are designed to enhance your business operations and drive growth.",
         },
+      
         {
           id: 3,
-          icon: "https://zrtechsolutions.com/demo/html/technoit/assets/images/icons/icon-3.svg",
-          title: "Approach",
-          subtitle: "Lorem ipsum dolor sit amet.",
-          description:
-            "Ronsectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
-        },
-        {
-          id: 4,
           icon: "https://zrtechsolutions.com/demo/html/technoit/assets/images/icons/icon-4.svg",
           title: "Pricing",
           subtitle: "Lorem ipsum dolor sit amet.",
           description:
-            "Ronsectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+            "Our pricing models are designed to offer maximum value. We combine high-quality service with cost-effective solutions, ensuring that you receive exceptional outcomes within your budget.",
+        },
+        {
+          id: 4,
+          icon: "https://zrtechsolutions.com/demo/html/technoit/assets/images/icons/icon-3.svg",
+          title: "Approach",
+          subtitle: "Lorem ipsum dolor sit amet.",
+          description:
+            "We believe in a client-first approach, partnering with you to fully understand your business objectives and challenges. Our collaborative process ensures that the solutions we deliver are perfectly aligned with your strategic goals.",
         },
         {
           id: 5,
@@ -44,7 +45,7 @@ export default function About() {
           title: "Delivery",
           subtitle: "Lorem ipsum dolor sit amet.",
           description:
-            "Ronsectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+            "We are committed to delivering projects on time, without compromising on quality. Our streamlined processes and meticulous project management ensure that you receive your solutions when you need them, fully operational and ready to perform.",
         },
         {
           id: 6,
@@ -52,10 +53,10 @@ export default function About() {
           title: "Support",
           subtitle: "Lorem ipsum dolor sit amet.",
           description:
-            "Ronsectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+            "Our commitment to you doesn't end with delivery. We provide continuous, reliable support to keep your systems running smoothly. Our dedicated support team is always ready to assist, ensuring that you have the help you need when you need it.",
         },
       ];
-      
+        
 const goals = [
     {
       icon: "🎯",
@@ -114,7 +115,7 @@ const goals = [
                                                     <img src="/assets/img/about/icon-1.svg" alt="icon-img" />
                                                 </div>
                                                 <div className="content">
-                                                    <h3><CounterUp count={25} />Years</h3>
+                                                    <h3><CounterUp count={3} />Years</h3>
                                                     <p>Of Experience</p>
                                                 </div>
                                             </div>
@@ -162,16 +163,7 @@ const goals = [
                                             </div>
                                         </div>
                                     </div>
-                                    <div className="about-author">
-                                        <div className="about-button wow fadeInUp" data-wow-delay=".5s">
-                                            <Link href="/about" className="theme-btn">
-                                                Explore More
-                                                <i className="fa-solid fa-arrow-right-long" />
-                                            </Link>
-                                        </div>
-                                       
-                                  
-                                            </div>
+                                 
                                         </div>
                                     </div>
                                 </div>
@@ -182,8 +174,8 @@ const goals = [
   <div className="container">
     <div className="row mb-5">
       <div className="col-12 text-center">
-        <h1 className="display-4 fw-semibold" style={{color: '#384BFF'}}>Why Choose Us</h1>
-        <p className="text-secondary">Lorem ipsum dolor sit amet.</p>
+        <h1 className="display-5 fw-semibold" style={{color: '#ea8c06', margin: '4rem 2rem'}}>Why Choose Us</h1>
+      
       </div>
     </div>
     <div className="row">
@@ -191,14 +183,14 @@ const goals = [
         {data.slice(0, 3).map((item) => (
           <div key={item.id} className="d-flex flex-row gap-2">
             <div className="d-flex flex-column align-items-end justify-content-end">
-              <h2 className="mb-2 fw-semibold" style={{color: '#384BFF'}}>{item.title}</h2>
+              <h2 className="mb-2 fw-semibold" style={{color: '#ea8c06'}}>{item.title}</h2>
               <p className="text-end text-gray-500">{item.description}</p>
             </div>
             <div className="d-flex flex-column align-items-start justify-content-start">
               <img
                 src={item.icon}
                 alt="Icon"
-                style={{height: '3rem', width: '5rem', filter: "hue-rotate(30deg) saturate(100%)"}}
+                style={{height: '4rem', width: '20rem', filter: "hue-rotate(30deg) saturate(100%)"}}
               />
             </div>
           </div>
@@ -220,11 +212,11 @@ const goals = [
               <img
                 src={item.icon}
                 alt="Icon"
-                style={{height: '3rem', width: '5rem', filter: "hue-rotate(30deg) saturate(100%)"}}
+                style={{height: '4rem', width: '20rem', filter: "hue-rotate(30deg) saturate(100%)"}}
               />
             </div>
             <div>
-              <h2 className="mb-2 fw-semibold" style={{color: '#384BFF'}}>{item.title}</h2>
+              <h2 className="mb-2 fw-semibold" style={{color: '#ea8c06'}}>{item.title}</h2>
               <p className="text-gray-500">{item.description}</p>
             </div>
           </div>
@@ -241,8 +233,8 @@ const goals = [
   }}
 >
   <div className="container">
-    <h1 className="mb-5 text-center" style={{ fontSize: '2.25rem', fontWeight: 'bold', color: '#333' }}>
-      About Us
+    <h1 className="mb-5 text-center" style={{ color: '#ea8c06', fontSize: '2.25rem', fontWeight: 'bold', color: '#333' }}>
+      
     </h1>
 
     <div className="row mb-5 align-items-center">
@@ -275,7 +267,7 @@ const goals = [
 
       <div className="col-lg-6">
         <div className="mb-4">
-          <h2 className="mb-3" style={{ fontSize: '1.5rem', fontWeight: '600', color: '#007bff' }}>
+          <h2 className="mb-3" style={{ fontSize: '1.5rem', fontWeight: '600', color: '#ea8c06' }}>
             Who We Are
           </h2>
           <p className="text-muted">
@@ -298,7 +290,7 @@ const goals = [
         </div>
 
         <div className="mb-4">
-          <h2 className="mb-3" style={{ fontSize: '1.5rem', fontWeight: '600', color: '#007bff' }}>
+          <h2 className="mb-3" style={{ fontSize: '1.5rem', fontWeight: '600', color: '#ea8c06' }}>
             Our Mission
           </h2>
           <p className="text-muted">
@@ -310,7 +302,7 @@ const goals = [
         </div>
 
         <div>
-          <h2 className="mb-3" style={{ fontSize: '1.5rem', fontWeight: '600', color: '#007bff' }}>
+          <h2 className="mb-3" style={{ fontSize: '1.5rem', fontWeight: '600', color: '#ea8c06' }}>
             Our Vision
           </h2>
           <p className="text-muted">
@@ -331,7 +323,7 @@ const goals = [
         {goals.map((goal, index) => (
           <div key={index} className="col-md-6 col-lg-4 mb-4">
             <div className="bg-light rounded p-3 h-100 shadow-sm">
-              <div className="mb-3" style={{ fontSize: '1.875rem', color: '#007bff' }}>{goal.icon}</div>
+              <div className="mb-3" style={{ fontSize: '1.875rem', color: '#ea8c06' }}>{goal.icon}</div>
               <h3 className="mb-2" style={{ fontSize: '1.25rem', fontWeight: '600', color: '#333' }}>
                 {goal.title}
               </h3>

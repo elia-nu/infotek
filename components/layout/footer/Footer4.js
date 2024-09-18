@@ -18,7 +18,7 @@ export default function Footer4() {
                             <h6><span>15k+</span>Active Customer</h6>
                         </div>
                         <Link href="/contact" className="theme-btn hover-white wow fadeInUp" data-wow-delay=".5s">
-                            Get A Quote
+                            Contact Us
                             <i className="fa-solid fa-arrow-right-long" />
                         </Link>
                     </div>
