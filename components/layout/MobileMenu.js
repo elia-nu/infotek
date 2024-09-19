@@ -31,7 +31,7 @@ export default function MobileMenu() {
                               
                             </li>
                             <li>
-                                <Link href="/about">About</Link>
+                                <Link href="/about">About Us</Link>
                             </li>
                             <li>
                                 <Link href="/Services">
@@ -46,10 +46,10 @@ export default function MobileMenu() {
                                     <i className="fas fa-angle-down" />
                                 </Link>
                                 <ul className="submenu" style={{ display: `${activeItem === 3 ? "block" : "none"}` }}>
-                                    <li><Link href="/news">Blog</Link></li>
+                    
                                     <li><Link href="/team">Our Team</Link></li>
                                     <li><Link href="/faq">Faq's</Link></li>
-                                    <li><Link href="/404">404 Page</Link></li>
+                                    <li><Link href="/career">Careers</Link></li>
                                 </ul>
                                 <a className={`mean-expand ${activeItem === 3 ? "mean-clicked" : ""}`} onClick={() => handleActiveItem(3)}>
                                     <i className="far fa-plus" />
@@ -63,7 +63,7 @@ export default function MobileMenu() {
                             
                             </li>
                             <li className="mean-last">
-                                <Link href="/contact">Contact</Link>
+                                <Link href="/contact">Contact Us</Link>
                             </li>
                         </ul>
                     </nav></div></div>

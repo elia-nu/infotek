@@ -13,8 +13,9 @@ import Project1 from "@/components/sections/Project1"
 import Service1 from "@/components/sections/Service1"
 import Team3 from "@/components/sections/Team3"
 import Testimonial1 from "@/components/sections/Testimonial1"
-export default function Home() {
 
+export default function Home() {
+ 
     return (
         <>
 
@@ -31,7 +32,7 @@ export default function Home() {
                 <Team3 />
         
                 <Faq1 />
-                <News1 />
+           
                 <Cta1 />
              <div className="container">
                 <div className="row">
@@ -39,10 +40,12 @@ export default function Home() {
                         <div className="text-center " style={{color: 'white', paddingTop: '190px'}}>
                 
                             <Brand1 />
+                
                         </div>
                     </div>
                 </div>
              </div>
+          
             </Layout>
         </>
     )

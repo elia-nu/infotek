@@ -115,7 +115,7 @@ const goals = [
                                                     <img src="/assets/img/about/icon-1.svg" alt="icon-img" />
                                                 </div>
                                                 <div className="content">
-                                                    <h3><CounterUp count={3} />Years</h3>
+                                                    <h3> Years</h3>
                                                     <p>Of Experience</p>
                                                 </div>
                                             </div>
@@ -129,7 +129,7 @@ const goals = [
                                     <div className="col-lg-6 mt-4 mt-lg-0">
                                         <div className="about-content">
                                         <div className="section-title">
-                                        <span className="wow fadeInUp">ABOUT QEDAMI</span>
+                                        <span className="wow fadeInUp" style={{color: '#ea8c06'}}>ABOUT QEDAMI</span>
                                         <h2 className="wow fadeInUp" data-wow-delay=".3s">
                                             We Are Increasing Business Success With <span>Technology</span>
                                         </h2>
@@ -170,8 +170,8 @@ const goals = [
                             </div>
                         </div>
                     </section>
-                    <section id="About" style={{overflow: 'hidden', backgroundColor: 'white', paddingBottom: '3rem', paddingTop: '5rem'}}>
-  <div className="container">
+                    <section className="bg-white about-section wow fadeInUp" data-wow-delay=".5s" id="About" style={{overflow: 'hidden', backgroundColor: 'white', paddingBottom: '3rem', paddingTop: '5rem'}}>
+  <div className="container ">
     <div className="row mb-5">
       <div className="col-12 text-center">
         <h1 className="display-5 fw-semibold" style={{color: '#ea8c06', margin: '4rem 2rem'}}>Why Choose Us</h1>
@@ -181,7 +181,7 @@ const goals = [
     <div className="row">
       <div className="col-lg-4 d-flex flex-column gap-5">
         {data.slice(0, 3).map((item) => (
-          <div key={item.id} className="d-flex flex-row gap-2">
+          <div key={item.id} className="d-flex flex-row gap-2 wow fadeInUp" data-wow-delay=".5s">
             <div className="d-flex flex-column align-items-end justify-content-end">
               <h2 className="mb-2 fw-semibold" style={{color: '#ea8c06'}}>{item.title}</h2>
               <p className="text-end text-gray-500">{item.description}</p>
@@ -197,7 +197,7 @@ const goals = [
         ))}
       </div>
 
-      <div className="col-lg-4 d-flex flex-column align-items-center justify-content-center">
+      <div className="col-lg-4 d-flex flex-column align-items-center justify-content-center wow fadeInUp" data-wow-delay=".5s">
         <img
           src="https://i.ibb.co/TgKt5Rs/2024-08-08-20-42-57.jpg"
           alt="Icon"
@@ -207,7 +207,7 @@ const goals = [
 
       <div className="col-lg-4 d-flex flex-column gap-5">
         {data.slice(3, 6).map((item) => (
-          <div key={item.id} className="d-flex flex-row gap-2">
+          <div key={item.id} className="d-flex flex-row gap-2 wow fadeInUp" data-wow-delay=".5s">
             <div className="d-flex flex-column align-items-start justify-content-start">
               <img
                 src={item.icon}
@@ -226,10 +226,12 @@ const goals = [
   </div>
 </section>
                 <section
+                className="about-section section-padding fix bg-cover fade-out"
   id="About"
   style={{
     background: 'linear-gradient(to bottom, #ffffff, #f3f4f6)',
     padding: '5rem 0',
+    backgroundImage: 'url("assets/img/service/service-bg-2.jpg")'
   }}
 >
   <div className="container">
@@ -239,7 +241,7 @@ const goals = [
 
     <div className="row mb-5 align-items-center">
       <div className="col-lg-6 mb-4 mb-lg-0">
-        <div className="row" style={{ height: '600px' }}>
+        <div className="row  wow fadeInUp" data-wow-delay=".5s" style={{ height: '600px' }}>
           <div className="col-8 h-100 pe-2">
             <img
               src='https://website.backend.qedamisolution.com/uploads/info/image4-1715447571688.jpg'
@@ -256,7 +258,7 @@ const goals = [
               style={{ objectFit: 'cover', height: '50%' }}
             />
             <img
-              src='https://website.backend.qedamisolution.com/uploads/info/image2-1715447571677.jpg'
+              src='https://website.backend.qedamisolution.com/uploads/info/image2-1715447571680.jpg'
               alt="Project meeting"
               className="img-fluid rounded shadow"
               style={{ objectFit: 'cover', height: '50%' }}
@@ -270,7 +272,7 @@ const goals = [
           <h2 className="mb-3" style={{ fontSize: '1.5rem', fontWeight: '600', color: '#ea8c06' }}>
             Who We Are
           </h2>
-          <p className="text-muted">
+          <p className="text-muted wow fadeInUp" data-wow-delay=".5s">
             Qedami Software Solution and Services is a leading IT company
             based in Addis Ababa, Ethiopia, dedicated to providing
             innovative software solutions and services to both national and
@@ -279,7 +281,7 @@ const goals = [
             solutions that meet the unique needs of our clients across
             various industries.
           </p>
-          <p className="mt-3 text-muted">
+            <p className="mt-3 text-muted wow fadeInUp" data-wow-delay=".5s">
             Our team of highly skilled professionals is passionate about
             technology and innovation. We specialize in a wide range of IT
             services, including software development, system integration, IT
@@ -293,7 +295,7 @@ const goals = [
           <h2 className="mb-3" style={{ fontSize: '1.5rem', fontWeight: '600', color: '#ea8c06' }}>
             Our Mission
           </h2>
-          <p className="text-muted">
+          <p className="text-muted wow fadeInUp" data-wow-delay=".5s">
             To empower businesses through innovative and reliable software
             solutions that drive growth and efficiency. We are dedicated to
             delivering exceptional value by leveraging the latest
@@ -305,7 +307,7 @@ const goals = [
           <h2 className="mb-3" style={{ fontSize: '1.5rem', fontWeight: '600', color: '#ea8c06' }}>
             Our Vision
           </h2>
-          <p className="text-muted">
+          <p className="text-muted wow fadeInUp" data-wow-delay=".5s">
             To be the leading software solutions provider in Ethiopia and a
             trusted partner for businesses worldwide. We aim to set the
             benchmark for excellence and innovation in the IT industry
@@ -327,7 +329,7 @@ const goals = [
               <h3 className="mb-2" style={{ fontSize: '1.25rem', fontWeight: '600', color: '#333' }}>
                 {goal.title}
               </h3>
-              <p className="text-muted">{goal.description}</p>
+              <p className="text-muted wow fadeInUp" data-wow-delay=".5s">{goal.description}</p>
             </div>
           </div>
         ))}
@@ -335,7 +337,6 @@ const goals = [
     </div>
   </div>
 </section>
-                
                 </div>
 
             </Layout>

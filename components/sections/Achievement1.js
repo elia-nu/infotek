@@ -19,7 +19,7 @@ export default function Achievement1() {
                                     <img src="/assets/img/achievement-icon/01.svg" alt="icon-img" />
                                 </div>
                                 <div className="content">
-                                    <h2><CounterUp count={6561}/>+</h2>
+                                    <h2><CounterUp count={25}/>+</h2>
                                     <p>Satisfied Clients</p>
                                 </div>
                             </div>
@@ -28,7 +28,7 @@ export default function Achievement1() {
                                     <img src="/assets/img/achievement-icon/02.svg" alt="icon-img" />
                                 </div>
                                 <div className="content">
-                                    <h2><CounterUp count={600}/>+</h2>
+                                    <h2><CounterUp count={38}/>+</h2>
                                     <p>Finished Projects</p>
                                 </div>
                             </div>
@@ -37,7 +37,7 @@ export default function Achievement1() {
                                     <img src="/assets/img/achievement-icon/03.svg" alt="icon-img" />
                                 </div>
                                 <div className="content">
-                                    <h2><CounterUp count={250}/>+</h2>
+                                    <h2><CounterUp count={15}/>+</h2>
                                     <p>Skilled Experts</p>
                                 </div>
                             </div>

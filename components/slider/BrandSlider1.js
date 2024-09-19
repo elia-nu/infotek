@@ -40,52 +40,92 @@ export default function BrandSlider1() {
                 <Swiper {...swiperOptions} className="swiper-wrapper">
                     <SwiperSlide>
                         <div className="brand-image">
-                            <img src="/assets/img/brand.png" alt="brand-img" />
+                            <img src="/assets/img/brand1.png" alt="brand-img" />
                         </div>
                     </SwiperSlide>
                     <SwiperSlide>
                         <div className="brand-image">
-                            <img src="/assets/img/brand.png" alt="brand-img" />
+                            <img src="/assets/img/brand2.png" alt="brand-img" />
                         </div>
                     </SwiperSlide>
                     <SwiperSlide>
                         <div className="brand-image">
-                            <img src="/assets/img/brand.png" alt="brand-img" />
+                            <img src="/assets/img/brand3.png" alt="brand-img" />
                         </div>
                     </SwiperSlide>
                     <SwiperSlide>
                         <div className="brand-image">
-                            <img src="/assets/img/brand.png" alt="brand-img" />
+                            <img src="/assets/img/brand4.webp" alt="brand-img" />
                         </div>
                     </SwiperSlide>
                     <SwiperSlide>
                         <div className="brand-image">
-                            <img src="/assets/img/brand.png" alt="brand-img" />
+                            <img src="/assets/img/brand5.png" alt="brand-img" />
                         </div>
                     </SwiperSlide>
                     <SwiperSlide>
                         <div className="brand-image">
-                            <img src="/assets/img/brand.png" alt="brand-img" />
+                            <img src="/assets/img/brand6.png" alt="brand-img" />
                         </div>
                     </SwiperSlide>
                     <SwiperSlide>
                         <div className="brand-image">
-                            <img src="/assets/img/brand.png" alt="brand-img" />
+                            <img src="/assets/img/brand1.png" alt="brand-img" />
                         </div>
                     </SwiperSlide>
                     <SwiperSlide>
                         <div className="brand-image">
-                            <img src="/assets/img/brand.png" alt="brand-img" />
+                            <img src="/assets/img/brand2.png" alt="brand-img" />
                         </div>
                     </SwiperSlide>
                     <SwiperSlide>
                         <div className="brand-image">
-                            <img src="/assets/img/brand.png" alt="brand-img" />
+                            <img src="/assets/img/brand3.png" alt="brand-img" />
                         </div>
                     </SwiperSlide>
                     <SwiperSlide>
                         <div className="brand-image">
-                            <img src="/assets/img/brand.png" alt="brand-img" />
+                            <img src="/assets/img/brand4.webp" alt="brand-img" />
+                        </div>
+                    </SwiperSlide>
+                    <SwiperSlide>
+                        <div className="brand-image">
+                            <img src="/assets/img/brand5.png" alt="brand-img" />
+                        </div>
+                    </SwiperSlide>
+                    <SwiperSlide>
+                        <div className="brand-image">
+                            <img src="/assets/img/brand6.png" alt="brand-img" />
+                        </div>
+                    </SwiperSlide>
+                    <SwiperSlide>
+                        <div className="brand-image">
+                            <img src="/assets/img/brand1.png" alt="brand-img" />
+                        </div>
+                    </SwiperSlide>
+                    <SwiperSlide>
+                        <div className="brand-image">
+                            <img src="/assets/img/brand2.png" alt="brand-img" />
+                        </div>
+                    </SwiperSlide>
+                    <SwiperSlide>
+                        <div className="brand-image">
+                            <img src="/assets/img/brand3.png" alt="brand-img" />
+                        </div>
+                    </SwiperSlide>
+                    <SwiperSlide>
+                        <div className="brand-image">
+                            <img src="/assets/img/brand4.webp" alt="brand-img" />
+                        </div>
+                    </SwiperSlide>
+                    <SwiperSlide>
+                        <div className="brand-image">
+                            <img src="/assets/img/brand5.png" alt="brand-img" />
+                        </div>
+                    </SwiperSlide>
+                    <SwiperSlide>
+                        <div className="brand-image">
+                            <img src="/assets/img/brand6.png" alt="brand-img" />
                         </div>
                     </SwiperSlide>
                 </Swiper>

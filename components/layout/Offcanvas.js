@@ -15,7 +15,7 @@ export default function Offcanvas({
                             <div className="offcanvas__top mb-5 d-flex justify-content-between align-items-center">
                                 <div className="offcanvas__logo">
                                     <Link href="/">
-                                        <img src="/assets/img/logo/black-logo.svg" alt="logo-img" />
+                                        <img src="https://qedamisolution.com/logo.png" alt="logo-img" />
                                     </Link>
                                 </div>
                                 <div className="offcanvas__close" onClick={handleOffCanvas}>
@@ -25,8 +25,7 @@ export default function Offcanvas({
                                 </div>
                             </div>
                             <p className="text d-none d-lg-block">
-                                Nullam dignissim, ante scelerisque the  is euismod fermentum odio sem semper the is erat, a feugiat leo urna eget eros. Duis Aenean a imperdiet risus.
-                            </p>
+                            "Ready to get started with Qedami Software Solution and Services? Empower your business with our cutting-edge technology solutions, expert software development, and tailored IT services. Let us help you innovate and achieve your goals. Get started today!"                 </p>
                             <div className="d-none d-md-block d-lg-none">
                                
                             </div>
@@ -41,7 +40,7 @@ export default function Offcanvas({
                                             <i className="fal fa-map-marker-alt" />
                                         </div>
                                         <div className="offcanvas__contact-text">
-                                            <Link target="_blank" href="#">Main Street, Melbourne, Australia</Link>
+                                            <Link target="_blank" href="#">Lingo Tower Infront sheger Plaza Bole, Addis Ababa, Ethiopia</Link>
                                         </div>
                                     </li>
                                     <li className="d-flex align-items-center">
@@ -65,7 +64,7 @@ export default function Offcanvas({
                                             <i className="far fa-phone" />
                                         </div>
                                         <div className="offcanvas__contact-text">
-                                            <Link href="/tel:+11002345909">+11002345909</Link>
+                                            <Link href="/tel:+251910813571">+251-91-081-3571</Link>
                                         </div>
                                     </li>
                                 </ul>

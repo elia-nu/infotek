@@ -257,7 +257,7 @@ export default function ServiceDetails() {
     const [services, setServices] = useState(companyDetails.company.services)
     const [serviceTitles, setServiceTitles] = useState()
     const [title, setTitle] = useState("System Integration")
-    
+    const [changeTitle, setChangeTitle] = useState()
     const handleClick = (index) => {
         setActiveItem(index)
     }
@@ -270,7 +270,8 @@ export default function ServiceDetails() {
         if (title) {
             setServiceData(services.filter(service => service.title === title));
         }
-    }, [services, title]); // Add title to dependency array
+        console.log(serviceData);
+    }, [services, title ,changeTitle]); // Add title to dependency array
 
     // Fallback for when serviceData is not available
     if (!serviceData) {
@@ -289,12 +290,13 @@ export default function ServiceDetails() {
                                         <div className="wid-title">
                                             <h3>All Services</h3>
                                         </div>
-                                        <div className="widget-categories">
+                                        <div className="widget-categories" onClick={() => setChangeTitle(!changeTitle)}>
                                             <ul>
                                                 {serviceTitles && serviceTitles.map((service, index) => (
-                                                    <li key={index}>
-                                                        <Link href={`/service-details/${service}`}>{service}</Link>
-                                                        <i className="fa-solid fa-arrow-right-long" />
+                                                    <li key={index}  onClick={() => setTitle(service)}>
+                                                        <a href={`/service-details?title=${encodeURIComponent(service)}`} onClick={() => setTitle(service)}>{service}</a>
+                                                       <i className="fa-solid fa-arrow-right-long" />
+                                                    
                                                     </li>
                                                 ))}
                                             </ul>
@@ -306,10 +308,10 @@ export default function ServiceDetails() {
                                         </div>
                                         <div className="opening-category">
                                             <ul>
-                                                <li><i className="fa-regular fa-clock" />Mon - Sat: 10.00 AM - 4.00 PM</li>
-                                                <li><i className="fa-regular fa-clock" />Sun:  09.00 AM - 4.00 PM</li>
-                                                <li><i className="fa-regular fa-clock" />Friday: Closed</li>
-                                                <li><i className="fa-regular fa-clock" />Emergency: 24 hours</li>
+                                                <li><i className="fa-regular fa-clock" />Mon - Fri: 9.00 AM - 5.00 PM</li>
+                                                <li><i className="fa-regular fa-clock" />Sat:  9.00 AM - 12.00 PM</li>
+                                                <li><i className="fa-regular fa-clock" />Sun:  Closed</li>
+                                                <li><i className="fa-regular fa-clock" />Support: 24 hours</li>
                                             </ul>
                                         </div>
                                     </div>
@@ -320,7 +322,7 @@ export default function ServiceDetails() {
                                             </div>
                                             <h4>Need Help? Call Here</h4>
                                             <h5>
-                                                <Link href="/tel:+2085550112">+208-555-0112</Link>
+                                                <Link href="/tel:+2085550112">+251 91 081 3571</Link>
                                             </h5>
                                         </div>
                                     </div>

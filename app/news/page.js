@@ -8,6 +8,12 @@ export default function News() {
 
             <Layout headerStyle={1} footerStyle={2} breadcrumbTitle="Blog Grid">
                 <section className="news-section-4 fix section-padding">
+                   
+
+
+
+                   {/*
+                   
                     <div className="container">
                         <div className="row g-4">
                             <div className="col-xl-4 col-lg-6 col-md-6 wow fadeInUp" data-wow-delay=".3s">
@@ -212,6 +218,9 @@ export default function News() {
                             </ul>
                         </div>
                     </div>
+                   
+                   
+                   */}
                 </section>
 
             </Layout>

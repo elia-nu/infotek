@@ -61,7 +61,7 @@ export default function About3() {
                                             </div>
                                             <div className="content">
                                                 <h2>
-                                                    <CounterUp count={15}/>+
+                                                    <CounterUp count={25}/>+
                                                 </h2>
                                                 <span>Satisfied Clients</span>
                                             </div>

@@ -70,8 +70,8 @@ export default function Contact() {
                                         <div className="contact-content">
                                             <h2>Ready to Get Started?</h2>
                                             <p>
-                                                Nullam varius, erat quis iaculis dictum, eros urna varius eros, ut blandit felis odio in turpis. Quisque rhoncus, eros in auctor ultrices,
-                                            </p>
+                                            "Ready to get started with Qedami Software Solution and Services? Empower your business with our cutting-edge technology solutions, expert software development, and tailored IT services. Let us help you innovate and achieve your goals. Get started today!"
+                                                    </p>
                                             <form action="contact.php" id="contact-form" method="POST" className="contact-form-items">
                                                 <div className="row g-4">
                                                     <div className="col-lg-6 wow fadeInUp" data-wow-delay=".3s">
