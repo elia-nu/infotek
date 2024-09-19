@@ -28,9 +28,11 @@ export default function Offcanvas({
                                 Nullam dignissim, ante scelerisque the  is euismod fermentum odio sem semper the is erat, a feugiat leo urna eget eros. Duis Aenean a imperdiet risus.
                             </p>
                             <div className="d-none d-md-block d-lg-none">
+                               
+                            </div>
+                            <div className="mobile-menu">
                                 <MobileMenu />
                             </div>
-
                             <div className="offcanvas__contact">
                                 <h4>Contact Info</h4>
                                 <ul>
@@ -47,7 +49,7 @@ export default function Offcanvas({
                                             <i className="fal fa-envelope" />
                                         </div>
                                         <div className="offcanvas__contact-text">
-                                            <Link href="/mailto:info@azent.com"><span className="mailto:info@example.com">info@example.com</span></Link>
+                                            <Link href="/mailto:info@azent.com"><span className="mailto:info@qedamisolution.com">info@qedamisolution.com</span></Link>
                                         </div>
                                     </li>
                                     <li className="d-flex align-items-center">

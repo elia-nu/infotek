@@ -10,24 +10,31 @@ s*/
   --body: #fff;
   --black: #000;
   --white: #fff;
-  --theme: #0e0e55;
-  --theme2: #0e0e55;
+  --theme: #0e134d;
+  --theme2: #0e134d;
   --theme3: #ea8c06;
-  --header: #040433;
+  --header: #0e134d;
   --text: #585858;
   --text-2: #ffffffcc;
   --border: #E3E3E3;
-  --border2: #242449;
+  --border2: #0e134d;
   --border3: #5262FF;
   --bg: #F3F7FB;
-  --bg2: #0e0e55;
+  --bg2: #0e134d;
   --bg3: #ffffff33;
   --box-shadow: 0px 4px 25px rgba(0, 0, 0, 0.06);
   --box-shadow-2: 0px 4px 25px rgba(56, 75, 255, 0.1);
   --heading-font: $heading-font ;
   --body-font: $body-font ;
 }
-
+.mobile-menu{
+  display: none;
+}
+@media (max-width: 991px) {
+  .mobile-menu {
+    display: block;
+  }
+}
 .theme-btn {
   background-color: var(--theme3);
   color: var(--white);

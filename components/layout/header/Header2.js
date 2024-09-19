@@ -22,11 +22,11 @@ export default function Header2({
                             <ul className="contact-list">
                                 <li>
                                     <i className="far fa-envelope" />
-                                    <Link href="/mailto:info@example.com" className="link">info@example.com</Link>
+                                    <Link href="/mailto:info@qedamisolution.com" className="link">info@qedamisolution.com</Link>
                                 </li>
                                 <li>
                                     <i className="fa-solid fa-phone-volume" />
-                                    <Link href="/tel:2086660112">+208-666-0112</Link>
+                                    <Link href="/tel:2086660112">+251-91-081-3571</Link>
                                 </li>
                             </ul>
                             <div className="top-right">

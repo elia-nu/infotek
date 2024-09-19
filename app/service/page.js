@@ -374,7 +374,7 @@ export default function Service() {
                                                     <div className="col-lg-6 wow fadeInUp" data-wow-delay=".5s">
                                                         <div className="form-clt">
                                                             <span>Your Email*</span>
-                                                            <input type="text" name="email" id="email" placeholder="info@example.com" />
+                                                            <input type="text" name="email" id="email" placeholder="info@qedamisolution.com" />
                                                         </div>
                                                     </div>
                                                     <div className="col-lg-12 wow fadeInUp" data-wow-delay=".7s">
