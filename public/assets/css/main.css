@@ -27,6 +27,7 @@ s*/
   --heading-font: $heading-font ;
   --body-font: $body-font ;
 }
+
 .mobile-menu{
   display: none;
 }
