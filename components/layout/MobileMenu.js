@@ -34,7 +34,7 @@ export default function MobileMenu() {
                                 <Link href="/about">About Us</Link>
                             </li>
                             <li>
-                                <Link href="/Services">
+                                <Link href="/service">
                                     Services
                                     <i className="fas fa-angle-down" />
                                 </Link>
