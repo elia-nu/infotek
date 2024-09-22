@@ -142,7 +142,7 @@ const goals = [
                                     <div className="about-icon-items">
                                         <div className="icon-items wow fadeInUp" data-wow-delay=".7s">
                                             <div className="icon">
-                                                <img src="/assets/img/about/icon-2.svg" alt="icon-img" />
+                                                <img src="https://infoteknextjs.vercel.app/assets/img/about/icon-4.svg" alt="icon-img" />
                                             </div>
                                             <div className="content">
                                                 <h4>Problem Solving</h4>
@@ -153,7 +153,7 @@ const goals = [
                                         </div>
                                         <div className="icon-items wow fadeInUp" data-wow-delay=".9s">
                                             <div className="icon">
-                                                <img src="/assets/img/about/icon-3.svg" alt="icon-img" />
+                                                <img src="https://infoteknextjs.vercel.app/assets/img/about/icon-5.svg" alt="icon-img" />
                                             </div>
                                             <div className="content">
                                                 <h4>Mission &amp; Vision</h4>
