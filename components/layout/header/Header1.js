@@ -46,7 +46,7 @@ export default function Header1({
                                 <div className="header-left">
                                     <div className="logo">
                                         <Link href="/" className="header-logo bg-red-900 px-10" style={{ width: '100px' }}>
-                                            <img src="https://qedamisolution.com/logo.png" style={{ width: '200px' }} alt="logo-img" />
+                                            <img src="/assets/img/header/logo.png" style={{ width: '200px' }} alt="logo-img" />
                                         </Link>
                                     </div>
                                 </div>

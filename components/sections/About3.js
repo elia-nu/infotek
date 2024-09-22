@@ -12,9 +12,7 @@ export default function About3() {
                         <div className="row">
                             <div className="col-lg-6 wow fadeInUp" data-wow-delay=".4s">
                                 <div className="about-image">
-                                    <div className="shape-image">
-                                        <img src="/assets/img/about/shape.png" alt="shape-img" />
-                                    </div>
+                               
                                     <div className="circle-shape">
                                         <img src="/assets/img/about/circle.png" alt="shape-img" />
                                     </div>
@@ -27,7 +25,7 @@ export default function About3() {
                             <div className="col-lg-6 mt-4 mt-lg-0">
                                 <div className="about-content">
                                     <div className="section-title">
-                                        <span className="wow fadeInUp">ABOUT QEDAMI</span>
+                                        <span className="wow fadeInUp" style={{ color: 'orange' }}>ABOUT QEDAMI</span>
                                         <h2 className="wow fadeInUp" data-wow-delay=".3s">
                                             We Can Clients with the <br /> About Solution
                                         </h2>

@@ -34,7 +34,7 @@ export default function Footer1() {
                                 <div className="single-footer-widget">
                                     <div className="widget-head">
                                         <Link href="/">
-                                            <img src="https://qedamisolution.com/logo.png" style={{ width: '300px' }} alt="logo-img" />
+                                            <img src="/assets/img/header/logo.png" style={{ width: '300px' }} alt="logo-img" />
                                         </Link>
                                     </div>
                                     <div className="footer-content">
@@ -122,6 +122,12 @@ export default function Footer1() {
                                                 Lingo Tower Infront sheger Plaza Bole, Addis Ababa, Ethiopia
                                             </li>
                                             <li>
+                                                <i className="fa-regular fa-envelope" />
+                                                <Link href="/mailto:infotech@gmail.com">info@qedamisolution.com
+                                                </Link>
+                                               
+                                            </li>
+                                            <li>
                                                 <i className="fa-solid fa-phone-volume" />
                                                 <Link href="/tel:+251910813571">+251 91 081 3571</Link>
                                                 <br/>
@@ -131,12 +137,7 @@ export default function Footer1() {
                                                 <i className="fa-solid fa-phone-volume" />
                                                 <Link href="/tel:+251910813571">+1 206 353 5373</Link>
                                             </li>
-                                            <li>
-                                                <i className="fa-regular fa-envelope" />
-                                                <Link href="/mailto:infotech@gmail.com">info@qedamisolution.com
-                                                </Link>
-                                               
-                                            </li>
+                                      
                                         </ul>
                                         <Link href="/contact" className="theme-btn hover-white mt-4">
                                             Contact Us

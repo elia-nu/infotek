@@ -119,9 +119,9 @@ const goals = [
                                                     <p>Of Experience</p>
                                                 </div>
                                             </div>
-                                            <div className="about-image-1 bg-cover wow fadeInLeft" data-wow-delay=".3s" style={{ backgroundImage: 'url("assets/img/about/03.png")' }}>
+                                            <div className="about-image-1 bg-cover wow fadeInLeft" data-wow-delay=".3s" style={{ backgroundImage: 'url("assets/img/about/ab2.jpg")' }}>
                                                 <div className="about-image-2 wow fadeInUp" data-wow-delay=".5s">
-                                                    <img src="/assets/img/about/04.jpg" alt="about-img" />
+                                                    <img src="/assets/img/about/ab1.jpg" alt="about-img" />
                                                 </div>
                                             </div>
                                         </div>

@@ -11,10 +11,12 @@ export default function Service() {
         "company": {
           "name": "Qedami IT Solutions and Services",
           "description": "Qedami IT Solutions and Services offers a comprehensive range of IT services to drive business growth through innovative technology and expertise. We specialize in software development, managed services, infrastructure management, system integration, training, and cybersecurity.",
+          
           "services": [
             {
               "title": "Software Development",
               "description": "At Qedami IT Solutions and Services, we offer a comprehensive range of software development solutions tailored to meet your unique business needs and drive growth through innovative technology and industry expertise. Our services include:",
+              "image": "/assets/img/service/soft dev.jpg", // Added image
               "subservices": [
                 {
                   "name": "Custom Software Development",
@@ -57,6 +59,7 @@ export default function Service() {
             {
               "title": "Managed Services",
               "description": "At Qedami IT Solutions and Services, our Managed Services are designed to ensure your business operates smoothly and securely. We offer a comprehensive suite of services that includes IT Support and Helpdesk, Managed Network Services, Managed Security Services, and Managed Cloud Services. Our proactive approach to managing your IT infrastructure allows you to focus on driving your business forward with confidence.",
+              "image": "/assets/img/service/ms1.jpg", // Added image
               "subservices": [
                 {
                   "name": "IT Support and Helpdesk",
@@ -99,6 +102,7 @@ export default function Service() {
             {
               "title": "Infrastructure Services",
               "description": "At Qedami IT Solutions and Services, we provide a full range of Infrastructure Services designed to optimize and enhance your IT infrastructure. Our offerings include Network Setup and Management, Server Installation and Maintenance, Cloud Services (IaaS, PaaS, SaaS), and Data Center Management. We focus on ensuring that your IT operations are robust, scalable, and efficient, enabling your business to thrive in a digital landscape.",
+              "image": "/assets/img/service/in1.jpg", // Added image
               "subservices": [
                 {
                   "name": "Network Setup and Management",
@@ -141,6 +145,7 @@ export default function Service() {
             {
               "title": "System Integration",
               "description": "At Qedami IT Solutions and Services, our System Integration services are designed to provide seamless connectivity and enhance the efficiency of your IT environment. We specialize in API Integration, Enterprise Application Integration, and Middleware Development to unify your disparate systems and applications. Our goal is to ensure smooth data exchange, improved performance, and a cohesive IT ecosystem that drives your business forward.",
+              "image": "/assets/img/service/si.jpg", // Added image
               "subservices": [
                 {
                   "name": "API Integration",
@@ -174,6 +179,7 @@ export default function Service() {
             {
               "title": "Training and Development",
               "description": "At Qedami IT Solutions and Services, our Training and Development services are designed to empower your team with the knowledge and skills needed to leverage your technology effectively. We offer tailored programs in Technical Training, Software Training, and End-User Training to ensure enhanced proficiency and optimal utilization of your systems.",
+              "image": "/assets/img/service/si.jpg", // Added image
               "subservices": [
                 {
                   "name": "Technical Training",
@@ -207,6 +213,7 @@ export default function Service() {
             {
               "title": "Cybersecurity Services",
               "description": "At Qedami IT Solutions and Services, our Cybersecurity Services are designed to provide robust protection against digital threats and ensure the safety of your critical data and systems. Our comprehensive offerings include Security Audits and Assessments, Threat Detection and Response, Vulnerability Management, and Data Encryption and Protection. We implement advanced strategies to fortify your digital environment, proactively identify risks, and maintain the highest level of security.",
+              "image": "/assets/img/service/soft Dev2.jpg", // Added image
               "subservices": [
                 {
                   "name": "Security Audits and Assessments",

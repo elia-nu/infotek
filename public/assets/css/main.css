@@ -6008,7 +6008,7 @@ input.main-search-input::placeholder {
 .project-items .project-image img {
   width: 100%;
   height: 100%;
-  object-fit: cover;
+  object-fit: contain;
 }
 .project-items .project-image .project-content {
   position: absolute;
@@ -6039,7 +6039,7 @@ input.main-search-input::placeholder {
   font-weight: bold;
 }
 .project-items .project-image .project-content h4 a:hover {
-  color: var(--theme);
+  color: var(--theme3);
 }
 .project-items .project-image .project-content .icon {
   width: 65px;
@@ -7228,6 +7228,7 @@ input.main-search-input::placeholder {
   width: 100%;
   height: 100%;
   object-fit: cover;
+  background-position: top;
 }
 .single-team-items .team-image .social-profile {
   position: absolute;

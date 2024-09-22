@@ -8,7 +8,7 @@ export default function Team4() {
                 <div className="container">
                     <div className="section-title-area">
                         <div className="section-title">
-                            <span className="wow fadeInUp">Team Members</span>
+                            <span className="wow fadeInUp">Team Members1</span>
                             <h2 className="wow fadeInUp" data-wow-delay=".3s">Our Dedicated Team <br /> Members</h2>
                         </div>
                         <Link href="/team" className="theme-btn wow fadeInUp" data-wow-delay=".5s">
@@ -20,7 +20,7 @@ export default function Team4() {
                         <div className="col-xl-4 col-lg-6 col-md-6 wow fadeInUp" data-wow-delay=".3s">
                             <div className="team-box-items">
                                 <div className="team-image">
-                                    <img src="/assets/img/team/08.jpg" alt="team-img" />
+                                    <img src="/assets/img/team/001.jpg" alt="team-img" />
                                 </div>
                                 <div className="team-content">
                                     <h3>

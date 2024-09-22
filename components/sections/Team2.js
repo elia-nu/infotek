@@ -43,7 +43,7 @@ export default function Team2() {
                         <div className="col-xl-4 col-lg-4 col-md-6 wow fadeInUp" data-wow-delay=".5s">
                             <div className="team-card-items">
                                 <div className="team-image">
-                                    <img src="/assets/img/team/02.jpg" alt="team-img" />
+                                    <img src="/assets/img/team/002.jpg" alt="team-img" />
                                     <div className="social-profile">
                                         <span className="plus-btn"><i className="fas fa-share-alt" /></span>
                                         <ul>

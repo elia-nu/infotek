@@ -14,7 +14,7 @@ export default function Cta1() {
                             <img src="/assets/img/circle.png" alt="shape-img" />
                         </div>
                         <div className="cta-image wow fadeInUp" data-wow-delay=".3s">
-                            <img src="/assets/img/cta.png" alt="cta-img" />
+                            <img src="/assets/img/sc.jpg" style={{ height: '300px', width: '100%', objectFit: 'cover', borderRadius: '10px' }} alt="cta-img" />
                         </div>
                         <div className="cta-items">
                             <h3 className="wow fadeInUp" data-wow-delay=".5s">Stay Connected With <br /> Cutting Edge IT</h3>
