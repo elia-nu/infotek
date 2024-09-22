@@ -258,7 +258,7 @@ const goals = [
               style={{ objectFit: 'cover', height: '50%' }}
             />
             <img
-              src='https://website.backend.qedamisolution.com/uploads/info/image2-1715447571680.jpg'
+              src='https://infoteknextjs.vercel.app/assets/img/project/04.jpg'
               alt="Project meeting"
               className="img-fluid rounded shadow"
               style={{ objectFit: 'cover', height: '50%' }}
