@@ -141,8 +141,8 @@ const goals = [
                                     Our team of highly skilled professionals is passionate about technology and innovation. We specialize in a wide range of IT services, including software development, system integration, IT consulting, and project management. Our goal is to help businesses leverage technology to improve efficiency, drive growth, and achieve their objectives.  </p>
                                     <div className="about-icon-items">
                                         <div className="icon-items wow fadeInUp" data-wow-delay=".7s">
-                                            <div className="icon">
-                                                <img src="https://infoteknextjs.vercel.app/assets/img/about/icon-4.svg" alt="icon-img" />
+                                            <div className="icon text-center" style={{ display: 'flex', justifyContent: 'center', alignItems: 'center' }}>
+                                                <img src="https://infoteknextjs.vercel.app/assets/img/about/icon-4.svg" alt="icon-img" className="mx-auto" />
                                             </div>
                                             <div className="content">
                                                 <h4>Problem Solving</h4>
@@ -152,8 +152,8 @@ const goals = [
                                             </div>
                                         </div>
                                         <div className="icon-items wow fadeInUp" data-wow-delay=".9s">
-                                            <div className="icon">
-                                                <img src="https://infoteknextjs.vercel.app/assets/img/about/icon-5.svg" alt="icon-img" />
+                                        <div className="icon text-center" style={{ display: 'flex', justifyContent: 'center', alignItems: 'center' }}>
+                                        <img src="https://infoteknextjs.vercel.app/assets/img/about/icon-5.svg" alt="icon-img" />
                                             </div>
                                             <div className="content">
                                                 <h4>Mission &amp; Vision</h4>

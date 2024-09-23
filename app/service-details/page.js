@@ -18,7 +18,7 @@ export default function ServiceDetails() {
             {
               "title": "Software Development",
               "description": "At Qedami IT Solutions and Services, we offer a comprehensive range of software development solutions tailored to meet your unique business needs and drive growth through innovative technology and industry expertise. Our services include:",
-              "image": "/assets/img/service/soft dev.jpg", // Added image
+              "image": "/assets/img/service/SoftDev.jpg", // Added image
               "subservices": [
                 {
                   "name": "Custom Software Development",

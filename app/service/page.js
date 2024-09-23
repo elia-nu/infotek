@@ -16,7 +16,7 @@ export default function Service() {
             {
               "title": "Software Development",
               "description": "At Qedami IT Solutions and Services, we offer a comprehensive range of software development solutions tailored to meet your unique business needs and drive growth through innovative technology and industry expertise. Our services include:",
-              "image": "/assets/img/service/soft dev.jpg", // Added image
+              "image": "/assets/img/service/SoftDev.jpg", // Added image
               "subservices": [
                 {
                   "name": "Custom Software Development",
@@ -213,7 +213,7 @@ export default function Service() {
             {
               "title": "Cybersecurity Services",
               "description": "At Qedami IT Solutions and Services, our Cybersecurity Services are designed to provide robust protection against digital threats and ensure the safety of your critical data and systems. Our comprehensive offerings include Security Audits and Assessments, Threat Detection and Response, Vulnerability Management, and Data Encryption and Protection. We implement advanced strategies to fortify your digital environment, proactively identify risks, and maintain the highest level of security.",
-              "image": "/assets/img/service/soft Dev2.jpg", // Added image
+              "image": "/assets/img/service/cb2.jpg", // Added image
               "subservices": [
                 {
                   "name": "Security Audits and Assessments",
