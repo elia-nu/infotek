@@ -36,7 +36,7 @@ export default function Team() {
                                         </div>
                                         <div className="team-content text-center">
                                             <h3>
-                                                <Link href="/team-details">{member.name}</Link>
+                                            {member.name}
                                             </h3>
                                             <p>{member.position}</p>
                                         </div>
