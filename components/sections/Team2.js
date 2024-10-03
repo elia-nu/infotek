@@ -26,9 +26,9 @@ export default function Team2() {
                                     <div className="social-profile">
                                         <span className="plus-btn"><i className="fas fa-share-alt" /></span>
                                         <ul>
-                                            <li><Link href="#"><i className="fab fa-facebook-f" /></Link></li>
-                                            <li><Link href="#"><i className="fa-brands fa-twitter" /></Link></li>
-                                            <li><Link href="#"><i className="fab fa-linkedin-in" /></Link></li>
+                                            <li><Link href="www.facebook,com"><i className="fab fa-facebook-f" /></Link></li>
+                                            <li><Link href="www.x.com"><i className="fa-brands fa-twitter" /></Link></li>
+                                            <li><Link href="www.linkdin.com"><i className="fab fa-linkedin-in" /></Link></li>
                                         </ul>
                                     </div>
                                 </div>
