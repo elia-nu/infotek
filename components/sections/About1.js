@@ -85,7 +85,7 @@ export default function About1() {
                                     <div className="section-title">
                                         <span className="wow fadeInUp">ABOUT QEDAMI</span>
                                         <h2 className="wow fadeInUp" data-wow-delay=".3s">
-                                            We Are Increasing Business Success With <span>Technology</span>
+                                        We empower clients with innovative solutions that address their  <span>unique challenges.</span>
                                         </h2>
                                     </div>
                                     <p className="mt-3 mt-md-0 wow fadeInUp" data-wow-delay=".5s">

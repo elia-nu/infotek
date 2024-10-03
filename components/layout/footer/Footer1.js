@@ -130,10 +130,12 @@ export default function Footer1() {
                                             <li>
                                                 <i className="fa-solid fa-phone-volume" />
                                                 <Link href="/tel:+251910813571">+251 91 081 3571</Link>
-                                                <br/>
+                                            </li>
+                                            <li>
                                                 <i className="fa-solid fa-phone-volume" />
                                                 <Link href="/tel:+251910813571">+251 94 143 9741</Link>
-                                                <br/>
+                                            </li>
+                                            <li>
                                                 <i className="fa-solid fa-phone-volume" />
                                                 <Link href="/tel:+251910813571">+1 206 353 5373</Link>
                                             </li>

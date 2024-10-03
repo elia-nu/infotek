@@ -27,7 +27,7 @@ export default function About3() {
                                     <div className="section-title">
                                         <span className="wow fadeInUp" style={{ color: 'orange' }}>ABOUT QEDAMI</span>
                                         <h2 className="wow fadeInUp" data-wow-delay=".3s">
-                                            We Can Clients with the <br /> About Solution
+                                        We empower clients with innovative solutions that address their unique challenges.
                                         </h2>
                                     </div>
                                     <p className="mt-3 mt-md-0 wow fadeInUp" data-wow-delay=".5s">
