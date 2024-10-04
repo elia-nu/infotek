@@ -23,7 +23,7 @@ export default function Team3() {
                 <div className="container">
                     <div className="section-title-area">
                         <div className="section-title">
-                            <span className="wow fadeInUp">Team Members1</span>
+                            <span className="wow fadeInUp">Team Members</span>
                             <h2 className="wow fadeInUp" data-wow-delay=".3s">
                                 Our Dedicated Team <br /> Members
                             </h2>

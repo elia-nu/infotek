@@ -5727,7 +5727,7 @@ span {
   font-weight: 600;
   font-size: 15px;
   text-transform: capitalize;
-  color: var(--header);
+  color: var(red);
   transition: all 0.3s ease-in-out;
   border: 1px solid var(--border);
 }
@@ -6351,7 +6351,7 @@ input.main-search-input::placeholder {
   }
 }
 .section-title span {
-  color: var(--theme);
+  color: var(--theme3);
   margin-bottom: 10px;
   display: inline-block;
   font-weight: 500;
