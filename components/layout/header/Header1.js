@@ -26,14 +26,19 @@ export default function Header1({
                                     <i className="fa-solid fa-phone-volume" />
                                     <Link href="/tel:2086660112">+251-91-081-3571</Link>
                                 </li>
+                                <li>
+                                    <i className="fa-solid fa-phone-volume" />
+                                    <Link href="/tel:+251910813571">+1 206 353 5373</Link>
+                                </li>
                             </ul>
                             <div className="top-right">
                                 <div className="social-icon d-flex align-items-center">
                                     <span>Follow Us:</span>
-                                    <Link href="#"><i className="fab fa-facebook-f" /></Link>
-                                    <Link href="#"><i className="fab fa-twitter" /></Link>
-                                    <Link href="#"><i className="fa-brands fa-linkedin-in" /></Link>
-                                    <Link href="#"><i className="fa-brands fa-youtube" /></Link>
+                                    <Link href=" https://www.facebook.com/share/8nDYQiLdk45Ank1V/" target="_blank"><i className="fab fa-facebook-f" /></Link>
+                                    <Link href=" https://x.com/Qedamisolutions?t=SZm06VjW8VakIkaNYuaGeA&s=08" target="_blank"><i className="fab fa-twitter" /></Link>
+                                    <Link href=" https://t.me/QedamiSolution" target="_blank"><i className="fab fa-telegram" /></Link>
+                                    <Link href=" https://www.linkedin.com/company/qedami-software-solution-and-services/about/?viewAsMember=true" target="_blank"><i className="fab fa-linkedin-in" /></Link>
+                               
                                 </div>
                             </div>
                         </div>

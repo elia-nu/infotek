@@ -63,8 +63,18 @@ export default function Offcanvas({
                                         <div className="offcanvas__contact-icon mr-15">
                                             <i className="far fa-phone" />
                                         </div>
-                                        <div className="offcanvas__contact-text">
+                                        <div className="offcanvas__contact-text ">
                                             <Link href="/tel:+251910813571">+251-91-081-3571</Link>
+                                    
+                                        </div>
+                                    </li>
+                                    <li className="d-flex align-items-center">
+                                        <div className="offcanvas__contact-icon mr-15">
+                                            <i className="far fa-phone" />
+                                        </div>
+                                        <div className="offcanvas__contact-text ">
+                                         
+                                            <Link href="/tel:+251910813571">+1 206 353 5373</Link>
                                         </div>
                                     </li>
                                 </ul>
@@ -74,10 +84,10 @@ export default function Offcanvas({
                                     </Link>
                                 </div>
                                 <div className="social-icon d-flex align-items-center">
-                                    <Link href="#"><i className="fab fa-facebook-f" /></Link>
-                                    <Link href="#"><i className="fab fa-twitter" /></Link>
-                                    <Link href="#"><i className="fab fa-youtube" /></Link>
-                                    <Link href="#"><i className="fab fa-linkedin-in" /></Link>
+                                    <Link href=" https://www.facebook.com/share/8nDYQiLdk45Ank1V/" target="_blank"><i className="fab fa-facebook-f" /></Link>
+                                    <Link href=" https://x.com/Qedamisolutions?t=SZm06VjW8VakIkaNYuaGeA&s=08" target="_blank"><i className="fab fa-twitter" /></Link>
+                                    <Link href=" https://t.me/QedamiSolution" target="_blank"><i className="fab fa-telegram" /></Link>
+                                    <Link href=" https://www.linkedin.com/company/qedami-software-solution-and-services/about/?viewAsMember=true" target="_blank"><i className="fab fa-linkedin-in" /></Link>
                                 </div>
                             </div>
                         </div>

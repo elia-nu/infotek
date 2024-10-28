@@ -42,11 +42,11 @@ export default function Footer1() {
                                         Qedami Software Solutions is a technology firm providing advanced, customized solutions for businesses. Specializing in software development, system integration, and IT consulting, Qedami uses the latest technology to optimize operations and drive growth.
                                         </p>
                                         <div className="social-icon d-flex align-items-center">
-                                            <Link href="#"><i className="fab fa-facebook-f" /></Link>
-                                            <Link href="#"><i className="fab fa-twitter" /></Link>
-                                            <Link href="#"><i className="fa-brands fa-linkedin-in" /></Link>
-                                            <Link href="#"><i className="fa-brands fa-youtube" /></Link>
-                                        </div>
+                                        <Link href=" https://www.facebook.com/share/8nDYQiLdk45Ank1V/" target="_blank"><i className="fab fa-facebook-f" /></Link>
+                                    <Link href=" https://x.com/Qedamisolutions?t=SZm06VjW8VakIkaNYuaGeA&s=08" target="_blank"><i className="fab fa-twitter" /></Link>
+                                    <Link href=" https://t.me/QedamiSolution" target="_blank"><i className="fab fa-telegram" /></Link>
+                                    <Link href=" https://www.linkedin.com/company/qedami-software-solution-and-services/about/?viewAsMember=true" target="_blank"><i className="fab fa-linkedin-in" /></Link>
+                                 </div>
                                     </div>
                                 </div>
                             </div>
