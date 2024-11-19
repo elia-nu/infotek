@@ -5,7 +5,7 @@ export default function Team() {
 
     const teamMembers = [
 
-        { name: "Mekdelawit Mamushet", position: "Senior Backend Engineer", img: "/assets/img/team/905.jpg" },
+        { name: "Mekdelawit Mamushet", position: "Senior Backend Engineer  .", img: "/assets/img/team/905.jpg" },
         { name: "Kalab Tenadeg", position: "Senior Full Stack Engineer", img: "/assets/img/team/010.jpg" },
          { name: "Elias Nuru", position: "Senior Frontend Engineer", img: "/assets/img/team/904.jpg" },
         { name: "Abdi Aliko", position: "Senior Project Manager", img: "/assets/img/team/901.jpg" },
