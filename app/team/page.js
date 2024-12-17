@@ -8,9 +8,6 @@ export default function Team() {
         { name: "Mekdelawit Mamushet", position: "Senior Backend Engineer  .", img: "/assets/img/team/905.jpg" },
         { name: "Kalab Tenadeg", position: "Senior Full Stack Engineer", img: "/assets/img/team/010.jpg" },
          { name: "Elias Nuru", position: "Senior Frontend Engineer", img: "/assets/img/team/904.jpg" },
-        { name: "Abdi Aliko", position: "Senior Project Manager", img: "/assets/img/team/901.jpg" },
-        { name: "Boni Birassa", position: "Senior Product Manager", img: "/assets/img/team/903.jpg" },
-        { name: "Dawit Haile ", position: "Senior Business Analyst", img: "/assets/img/team/902.jpg" }
     ];
     return (
         <>
